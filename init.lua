@@ -172,9 +172,6 @@ require('lazy').setup({
     },
   },
 
-  -- "gc" to comment visual regions/lines
-  { 'numToStr/Comment.nvim',         opts = {} },
-
   -- Fuzzy Finder (files, lsp, etc)
   { 'nvim-telescope/telescope.nvim', version = '*', dependencies = { 'nvim-lua/plenary.nvim' } },
 
@@ -522,11 +519,13 @@ cmp.setup {
 vim.keymap.set('n', '<leader>e', '<cmd>Neotree toggle<CR>', { desc = 'toggle tree view' })
 vim.keymap.set('n', '<Tab>', '<cmd>BufferLineCycleNext<CR>', { desc = "next tab" })
 vim.keymap.set('n', '<leader><Tab>', '<cmd>BufferLineCyclePrev<CR>', { desc = "prev tab" })
-vim.keymap.set('n', '<leader>x', '<cmd>:bd<CR>', { desc = "close buffer" })
+vim.keymap.set('n', '<leader>x', '<cmd>:hide', { desc = "close buffer" })
 vim.keymap.set('n', '<leader>s', '<cmd>:wa<CR>', { desc = "save all" })
 vim.keymap.set('n', '<leader>j', '<cmd>:wincmd j<CR>', { desc = "move cursor down window" })
 vim.keymap.set('n', '<leader>h', '<cmd>:wincmd h<CR>', { desc = "move cursor left window" })
 vim.keymap.set('n', '<leader>k', '<cmd>:wincmd k<CR>', { desc = "move cursor up window" })
 vim.keymap.set('n', '<leader>l', '<cmd>:wincmd l<CR>', { desc = "move cursor right window" })
+vim.keymap.set('n', '<leader>sh', '<cmd>:split<CR>', { desc = "horizontal split" })
+vim.keymap.set('n', '<leader>sv', '<cmd>:vsplit<CR>', { desc = "vertical split" })
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

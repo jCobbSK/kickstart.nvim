@@ -12,8 +12,8 @@
 | [x]   | <Leader>ff              | fuzzy search in current file          | telescope |
 | [x]   | <Leader>fb              | fuzzy search in opened tabs(buffers)  | telescope |
 | [x]   | <Leader>x               | close buffer / tab                    | default | 
-| [ ]   | <Leader>sh              | split tab horizontaly                 |
-| [ ]   | <Leader>sv              | split tab vertically                  |
+| [x]   | <Leader>sh              | split tab horizontaly                 | default |
+| [x]   | <Leader>sv              | split tab vertically                  | default |
 | [x]   | <Leader> + l                   | focus tab to the right                | default |
 | [x]   | <Leader> + h                   | focus tab to the left                 | default |
 | [x]   | <Leader> + j                   | focus tab down                        | default |
@@ -21,13 +21,13 @@
 | [x]   | Tab                     | next file in the tab                  | bufferline |
 | [x]   | <Leader>Tab             | previous file in the tab              | bufferline |
 | [ ]   | <Leader>fm              | auto format and save                  | default |
-| [x]   | <Leader>s               | save all file                             | default |
-| [ ]   | <Leader>tt              | show terminal window                  | vim-floaterm |
+| [x]   | <Leader>s               | save all files                             | default |
+| [ ]   | <Leader>tt              | show terminal window                  | |
 | [ ]   | <Leader>gp              | show git diff                         |
 | [ ]   | <Leader>gb              | show git blame                        |
 | [ ]   | <Leader>a               | show autocomplete                     | nvim-cmp |
 | [ ]   | <Leader>s               | show suggestions                      | 
-| [ ]   | <Leader>/               | toggle comment line                   | Comment.nvim |
+| [x]   | <Leader>/               | toggle comment line                   | numToStr/Comment.nvim | 
 
 
 ### Plugins
@@ -40,8 +40,9 @@
 | [ ]   | Eslint errors           |
 | [ ]   | Prettier errors         |
 | [ ]   | Git ops                 | fugitive.vim |
-| [ ]   | LSP                     | nvim-lspconfig , mason , mason-lspconfig |
-
+| [x]   | LSP                     | nvim-lspconfig , mason , mason-lspconfig |
+| [ ]   | automatic bracket pairs |                     
+| [ ]   | automatic html pairs    |
 
 
 ## Original Docs from kickstart.nvim
