@@ -1,5 +1,50 @@
 # kickstart.nvim
 
+## My modifications from the original kickstart.nvim setup
+
+### Commands
+| Done? | shortcut                | command                               | plugin                      |
+| ----- | ----------------------- | ------------------------------------- | --------------------------- |
+| [ ]   | <Leader>e               | toggle file tree                      |
+| [x]   | <Leader><space>         | fuzzy search file                     | telescope |
+| [x]   | <Leader>fw              | fuzzy search exact word               | telescope |
+| [x]   | <Leader>fg              | fuzzy search word                     | telescope |
+| [x]   | <Leader>ff              | fuzzy search in current file          | telescope |
+| [x]   | <Leader>fb              | fuzzy search in opened tabs(buffers)  | telescope |
+| [ ]   | <Leader>x               | close buffer / tab                    | 
+| [ ]   | <Leader>sh              | split tab horizontaly                 |
+| [ ]   | <Leader>sv              | split tab vertically                  |
+| [ ]   | C + l                   | focus tab to the right                |
+| [ ]   | C + h                   | focus tab to the left                 |
+| [ ]   | C + j                   | focus tab down                        |
+| [ ]   | C + k                   | focus tab up                          |
+| [ ]   | Tab                     | next file in the tab                  |
+| [ ]   | <Leader>Tab             | previous file in the tab              |
+| [ ]   | <Leader>fm              | auto format and save                  |
+| [ ]   | <Leader>sa              | save all files                        |
+| [ ]   | <Leader>tt              | show terminal window                  |
+| [ ]   | <Leader>gp              | show git diff                         |
+| [ ]   | <Leader>gb              | show git blame                        |
+| [ ]   | <Leader>a               | show autocomplete                     | nvim-cmp |
+| [ ]   | <Leader>s               | show suggestions                      | 
+| [ ]   | <Leader>/               | toggle comment line                   | Comment.nvim |
+
+
+### Plugins
+| Done? | Why?                    | Plugin                                |
+| ----- | ----------------------- | ------------------------------------- |
+| [x]   | Package manager         | lazy.nvim                             |
+| [ ]   | markdown preview        |
+| [ ]   | colored indentation lines|
+| [ ]   | TS errors               |
+| [ ]   | Eslint errors           |
+| [ ]   | Prettier errors         |
+| [ ]   | Git ops                 | fugitive.vim |
+| [ ]   | LSP                     | nvim-lspconfig , mason , mason-lspconfig |
+
+
+
+## Original Docs from kickstart.nvim
 ### Introduction
 
 A starting point for Neovim that is:
