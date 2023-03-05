@@ -523,9 +523,10 @@ vim.keymap.set('n', '<leader>e', '<cmd>Neotree toggle<CR>', { desc = 'toggle tre
 vim.keymap.set('n', '<Tab>', '<cmd>BufferLineCycleNext<CR>', { desc = "next tab" })
 vim.keymap.set('n', '<leader><Tab>', '<cmd>BufferLineCyclePrev<CR>', { desc = "prev tab" })
 vim.keymap.set('n', '<leader>x', '<cmd>:bd<CR>', { desc = "close buffer" })
-vim.keymap.set('n', '<leader>sa', '<cmd>:wa<CR>', { desc = "save all files" })
-vim.keymap.set('n', '<leader>s', '<cmd>:w<CR>', { desc = "save file" })
-vim.keymap.set('n', '<leader>tt', '<cmd>:FloatermToggle<CR>', { desc = "Show floating terminal" })
-
+vim.keymap.set('n', '<leader>s', '<cmd>:wa<CR>', { desc = "save all" })
+vim.keymap.set('n', '<leader>j', '<cmd>:wincmd j<CR>', { desc = "move cursor down window" })
+vim.keymap.set('n', '<leader>h', '<cmd>:wincmd h<CR>', { desc = "move cursor left window" })
+vim.keymap.set('n', '<leader>k', '<cmd>:wincmd k<CR>', { desc = "move cursor up window" })
+vim.keymap.set('n', '<leader>l', '<cmd>:wincmd l<CR>', { desc = "move cursor right window" })
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

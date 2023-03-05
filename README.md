@@ -14,15 +14,14 @@
 | [x]   | <Leader>x               | close buffer / tab                    | default | 
 | [ ]   | <Leader>sh              | split tab horizontaly                 |
 | [ ]   | <Leader>sv              | split tab vertically                  |
-| [ ]   | C + l                   | focus tab to the right                |
-| [ ]   | C + h                   | focus tab to the left                 |
-| [ ]   | C + j                   | focus tab down                        |
-| [ ]   | C + k                   | focus tab up                          |
+| [x]   | <Leader> + l                   | focus tab to the right                | default |
+| [x]   | <Leader> + h                   | focus tab to the left                 | default |
+| [x]   | <Leader> + j                   | focus tab down                        | default |
+| [x]   | <Leader> + k                   | focus tab up                          | default |
 | [x]   | Tab                     | next file in the tab                  | bufferline |
 | [x]   | <Leader>Tab             | previous file in the tab              | bufferline |
 | [ ]   | <Leader>fm              | auto format and save                  | default |
-| [x]   | <Leader>sa              | save all files                        | default |
-| [x]   | <Leader>s               | save file                             | default |
+| [x]   | <Leader>s               | save all file                             | default |
 | [ ]   | <Leader>tt              | show terminal window                  | vim-floaterm |
 | [ ]   | <Leader>gp              | show git diff                         |
 | [ ]   | <Leader>gb              | show git blame                        |
