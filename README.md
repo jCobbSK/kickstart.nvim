@@ -22,12 +22,14 @@
 | [x]   | <Leader>Tab             | previous file in the tab              | bufferline |
 | [ ]   | <Leader>fm              | auto format and save                  | default |
 | [x]   | <Leader>s               | save all files                             | default |
-| [ ]   | <Leader>tt              | show terminal window                  | |
+| [x]   | <Leader>tt              | toggle terminal window                  | toggle-term |
 | [ ]   | <Leader>gp              | show git diff                         |
 | [ ]   | <Leader>gb              | show git blame                        |
 | [ ]   | <Leader>a               | show autocomplete                     | nvim-cmp |
 | [ ]   | <Leader>s               | show suggestions                      | 
 | [x]   | <Leader>/               | toggle comment line                   | numToStr/Comment.nvim | 
+| [ ]   | <Cmd><S>j               | move line(s) down                     | |
+| [ ]   | <Cmd><S>k               | move line(s) up                       | |
 
 
 ### Plugins
@@ -41,8 +43,10 @@
 | [ ]   | Prettier errors         |
 | [ ]   | Git ops                 | fugitive.vim |
 | [x]   | LSP                     | nvim-lspconfig , mason , mason-lspconfig |
-| [ ]   | automatic bracket pairs |                     
-| [ ]   | automatic html pairs    |
+| [x]   | automatic bracket pairs | nvim-autopairs |  
+| [x]   | automatic html pairs    | nvim-ts-autotag |
+| [ ]   | file overview map       | |
+| [ ]   | save workspace with open tabs | |
 
 
 ## Original Docs from kickstart.nvim
