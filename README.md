@@ -5,24 +5,25 @@
 ### Commands
 | Done? | shortcut                | command                               | plugin                      |
 | ----- | ----------------------- | ------------------------------------- | --------------------------- |
-| [ ]   | <Leader>e               | toggle file tree                      |
+| [x]   | <Leader>e               | toggle file tree                      | neo-tree |
 | [x]   | <Leader><space>         | fuzzy search file                     | telescope |
 | [x]   | <Leader>fw              | fuzzy search exact word               | telescope |
 | [x]   | <Leader>fg              | fuzzy search word                     | telescope |
 | [x]   | <Leader>ff              | fuzzy search in current file          | telescope |
 | [x]   | <Leader>fb              | fuzzy search in opened tabs(buffers)  | telescope |
-| [ ]   | <Leader>x               | close buffer / tab                    | 
+| [x]   | <Leader>x               | close buffer / tab                    | default | 
 | [ ]   | <Leader>sh              | split tab horizontaly                 |
 | [ ]   | <Leader>sv              | split tab vertically                  |
 | [ ]   | C + l                   | focus tab to the right                |
 | [ ]   | C + h                   | focus tab to the left                 |
 | [ ]   | C + j                   | focus tab down                        |
 | [ ]   | C + k                   | focus tab up                          |
-| [ ]   | Tab                     | next file in the tab                  |
-| [ ]   | <Leader>Tab             | previous file in the tab              |
-| [ ]   | <Leader>fm              | auto format and save                  |
-| [ ]   | <Leader>sa              | save all files                        |
-| [ ]   | <Leader>tt              | show terminal window                  |
+| [x]   | Tab                     | next file in the tab                  | bufferline |
+| [x]   | <Leader>Tab             | previous file in the tab              | bufferline |
+| [ ]   | <Leader>fm              | auto format and save                  | default |
+| [x]   | <Leader>sa              | save all files                        | default |
+| [x]   | <Leader>s               | save file                             | default |
+| [ ]   | <Leader>tt              | show terminal window                  | vim-floaterm |
 | [ ]   | <Leader>gp              | show git diff                         |
 | [ ]   | <Leader>gb              | show git blame                        |
 | [ ]   | <Leader>a               | show autocomplete                     | nvim-cmp |
