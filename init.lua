@@ -519,7 +519,7 @@ cmp.setup {
 vim.keymap.set('n', '<leader>e', '<cmd>Neotree toggle<CR>', { desc = 'toggle tree view' })
 vim.keymap.set('n', '<Tab>', '<cmd>BufferLineCycleNext<CR>', { desc = "next tab" })
 vim.keymap.set('n', '<leader><Tab>', '<cmd>BufferLineCyclePrev<CR>', { desc = "prev tab" })
-vim.keymap.set('n', '<leader>x', '<cmd>:hide<CR>', { desc = "close buffer" })
+vim.keymap.set('n', '<leader>x', '<cmd>:bdelete<CR>', { desc = "close buffer" })
 vim.keymap.set('n', '<leader>s', '<cmd>:wa<CR>', { desc = "save all" })
 vim.keymap.set('n', '<leader>j', '<cmd>:wincmd j<CR>', { desc = "move cursor down window" })
 vim.keymap.set('n', '<leader>h', '<cmd>:wincmd h<CR>', { desc = "move cursor left window" })

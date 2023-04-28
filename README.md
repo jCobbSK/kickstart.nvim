@@ -14,10 +14,10 @@
 | [x]   | <Leader>x               | close buffer / tab                    | default | 
 | [x]   | <Leader>sh              | split tab horizontaly                 | default |
 | [x]   | <Leader>sv              | split tab vertically                  | default |
-| [x]   | <Leader> + l                   | focus tab to the right                | default |
-| [x]   | <Leader> + h                   | focus tab to the left                 | default |
-| [x]   | <Leader> + j                   | focus tab down                        | default |
-| [x]   | <Leader> + k                   | focus tab up                          | default |
+| [x]   | <Leader> + l            | focus tab to the right                | default |
+| [x]   | <Leader> + h            | focus tab to the left                 | default |
+| [x]   | <Leader> + j            | focus tab down                        | default |
+| [x]   | <Leader> + k            | focus tab up                          | default |
 | [x]   | Tab                     | next file in the tab                  | bufferline |
 | [x]   | <Leader>Tab             | previous file in the tab              | bufferline |
 | [ ]   | <Leader>fm              | auto format and save                  | default |
@@ -30,6 +30,8 @@
 | [x]   | <Leader>/               | toggle comment line                   | numToStr/Comment.nvim | 
 | [ ]   | <Cmd><S>j               | move line(s) down                     | |
 | [ ]   | <Cmd><S>k               | move line(s) up                       | |
+| [ ]   | <Cmd><S>d               | duplicate line(s) below               | |
+| [ ]   | <Leader>ra              | [R]eplace [A]ll occurances in buffer  | |s
 
 
 ### Plugins
